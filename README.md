@@ -33,8 +33,8 @@ TODO:
 [x] Add to cart animation
 [x] Manage cart
 [x] Checkout
-[ ] Order History
+[x] Order History
 [x] Brand Page
 [x] Featured item details
 [x] Search page
-[ ] Top bar filters
+[x] Top bar filters
