@@ -25,6 +25,10 @@ class _AppState extends State<App> {
     "color": "Blue Lagoon",
     "price": 160.00,
     "hero": "nike-air-zoom-pegasus-32.png",
+    "image": "nike-black-and-white-air-zoom-pegasus-38-sneakers.jpeg",
+    "color": "Blue Lagoon",
+    "price": 160.00,
+    "hero": "nike-air-zoom-pegasus-32.png",
     "image": "nike-black-and-white-air-zoom-pegasus-38-sneakers.jpeg"
   };
 
@@ -63,6 +67,9 @@ class _AppState extends State<App> {
               color: Colors.white,
               fontSize: 18,
             ),
+            iconTheme: IconThemeData(
+              color: Colors.black,
+            ),
             shape: RoundedRectangleBorder(
               borderRadius: BorderRadius.circular(8.0),
             ),
@@ -73,6 +80,9 @@ class _AppState extends State<App> {
         providers: [
           Provider<CartStore>(create: (_) => CartStore()),
         ],
+        child: Details(
+          item: Item.fromJson(itemJson),
+        ),
         child: Details(
           item: Item.fromJson(itemJson),
         ),
