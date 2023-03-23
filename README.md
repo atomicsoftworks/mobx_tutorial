@@ -24,17 +24,3 @@ After updating `pubspec.yaml`, run these commands:
 flutter pub run flutter_launcher_icons:main
 flutter pub pub run flutter_native_splash:create
 ```
-
-### Models
-Models are defined in `models.jsonc`
-Generate the models using `JSON to Dart` extension, use `(Shift + CMD + P)`
-
-TODO:
-[x] Add to cart animation
-[x] Manage cart
-[x] Checkout
-[ ] Order History
-[x] Brand Page
-[x] Featured item details
-[x] Search page
-[ ] Top bar filters
